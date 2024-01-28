@@ -6,7 +6,7 @@ function Header() {
             <div className={styles.content}>
                     <h1>BRADLEY KERR</h1>
                     <p>FULL STACK SOFTWARE DEVELOPER</p>
-            </div>
+           
             <nav>
                 <ul>
                     <li><a href="#intro">Projects</a></li>
@@ -15,6 +15,7 @@ function Header() {
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+            </div>
         </header>
     );
 }
