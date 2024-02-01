@@ -1,8 +1,4 @@
 .navbar {
-    background-color: rgb(1, 0, 10);
     border-bottom: 0.1px solid white;
-}
-
-.navbar li {
-    color:white
+    height: 10vh;
 }

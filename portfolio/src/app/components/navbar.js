@@ -8,10 +8,11 @@ function Navbar() {
                 <button className='navbar-toggler' data-toggle='collapse' data-target='#main-nav'><span className='navbar-toggler-icon'></span></button>
                 <div className='collapse navbar-collapse justify-content-center align-center' id='main-nav'>
                     <ul className='navbar-nav'>
-                        <li className='nav-item'><Link className='nav-link' href='/'>Home</Link></li>
-                        <li className='nav-item'><Link className='nav-link' href='/projects'>Projects</Link></li>
-                        <li className='nav-item'><Link className='nav-link' href='/about'>About</Link></li>
-                        <li className='nav-item'><Link className='nav-link' href='/contact'>Contact</Link></li>
+                        <li className='nav-item'><Link className='nav-link' href='/'>HOME</Link></li>
+                        <li className='nav-item'><Link className='nav-link' href='/projects'>PROJECTS</Link></li>
+                        <li className='nav-item'><Link className='nav-link' href='/about'>BLOG</Link></li>
+                        <li className='nav-item'><Link className='nav-link' href='/about'>ABOUT</Link></li>
+                        <li className='nav-item'><Link className='nav-link' href='/contact'>CONTACT</Link></li>
                     </ul>
                 </div>
             </div>
