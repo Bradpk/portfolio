@@ -1,8 +1,23 @@
 .header {
         display: grid;
         place-items: center;
-        text-align: center;
         border: 1px solid black;
-        height: 50vh;
-        width: 50vw;
+        height: 100vh;
+        width: 100vw;
+        background-color: rgb(1, 0, 10);
+}
+
+.homename {
+    border-top: 0.1px solid rgb(255, 255, 255);
+    border-bottom: 0.1px solid rgb(255, 255, 255);
+    padding: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1vw;
+    margin-bottom: 20vh;
+}
+
+.homename p {
+    font-size: 15px;
+    letter-spacing: 5px;
 }

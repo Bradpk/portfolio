@@ -3,8 +3,10 @@ import styles from './header.module.css';
 function Header() {
     return (
         <header className={styles.header}>
-                    <h1>BRADLEY KERR</h1>
-                    <p>FULL STACK SOFTWARE DEVELOPER</p>
+            <div className={styles.homename}>
+                <h1>BRADLEY KERR</h1> <br></br>
+                <p>FULL STACK SOFTWARE DEVELOPER</p>
+            </div>
         </header>
     );
 }

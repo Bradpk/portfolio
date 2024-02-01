@@ -3,7 +3,7 @@ import styles from './navbar.module.css';
 
 function Navbar() {
     return (
-        <nav className={'navbar navbar-expand-md nav-dark '}>
+        <nav className={`navbar navbar-expand-md nav-dark ${styles.navbar}`}>
             <div className='container-fluid'>
                 <button className='navbar-toggler' data-toggle='collapse' data-target='#main-nav'><span className='navbar-toggler-icon'></span></button>
                 <div className='collapse navbar-collapse justify-content-center align-center' id='main-nav'>

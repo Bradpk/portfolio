@@ -1,7 +1,8 @@
 .navbar {
-    background-color: aquamarine;
+    background-color: rgb(1, 0, 10);
+    border-bottom: 0.1px solid white;
 }
 
-.fish {
-    color: red;
+.navbar li {
+    color:white
 }
