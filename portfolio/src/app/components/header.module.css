@@ -2,9 +2,7 @@
         display: grid;
         place-items: center;
         text-align: center;
-        height: 100vh;
-}
-
-.content li{
-    list-style-type: none;
+        border: 1px solid black;
+        height: 50vh;
+        width: 50vw;
 }
