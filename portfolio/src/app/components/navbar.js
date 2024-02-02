@@ -12,9 +12,10 @@ function Navbar() {
                     <ul className={`navbar-nav ${styles.navoptions}`}>
                         <li className='nav-item'><Link className='nav-link text-light' href='/'>HOME</Link></li>
                         <li className='nav-item'><Link className='nav-link text-light' href='/projects'>PROJECTS</Link></li>
-                        <li className='nav-item'><Link className='nav-link text-light' href='/about'>BLOG</Link></li>
+                        <li className='nav-item'><Link className='nav-link text-light' href='/blog'>BLOG</Link></li>
                         <li className='nav-item'><Link className='nav-link text-light' href='/about'>ABOUT</Link></li>
                         <li className='nav-item'><Link className='nav-link text-light' href='/contact'>CONTACT</Link></li>
+                        <p></p>
                     </ul>
                 </div>
             </div>
