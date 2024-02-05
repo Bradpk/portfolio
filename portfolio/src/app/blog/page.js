@@ -251,7 +251,7 @@ function Blog() {
   determine the most suitable library for my project, as well as learn how to leverage its full
   potential.</p>
 
-<p>WEEK 7</p>
+<p><strong>WEEK 7</strong></p>
 
 <p>What have you learned about CLIs? Do you think they are scary?</p>
 
@@ -267,7 +267,7 @@ function Blog() {
 <p>
 </p>
 
-<h4>List some ideas that without a Framework, would take you a long time to code</h4>
+<p>List some ideas that without a Framework, would take you a long time to code</p>
 
 <p><strong>WEEK 8</strong></p>
 

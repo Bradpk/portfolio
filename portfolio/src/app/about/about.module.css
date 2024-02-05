@@ -1,7 +1,16 @@
 .aboutcontainer {
-    width: 50%;
+    width: 66.6%;
     color: white;
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 1px;
     padding-top: 50px;
+    line-height: 40px;
+}
+
+.myself{
+    width:390px;
+    height: 520px;
+    float: right;
+    padding-left: 10px;
+    border-radius: 1px;
 }

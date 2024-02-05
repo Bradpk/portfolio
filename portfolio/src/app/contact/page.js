@@ -5,7 +5,7 @@ function Contact() {
     <div>
     <Navbar />
       <h1>Contact</h1>
-      <p>These are my projects</p>
+      <p>Th</p>
     </div>
   );
 }
