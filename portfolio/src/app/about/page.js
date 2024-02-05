@@ -18,6 +18,7 @@ function About() {
 					drink with friends whenever I get the chance.<br></br><br></br>While my passion for music remains, I've
 					discovered a new interest in programming that has led me to pursue a fresh career path in the tech
 					industry.</p>
+
     </div>
     </div>
   );
