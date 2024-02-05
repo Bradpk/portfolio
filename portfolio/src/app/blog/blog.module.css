@@ -1,0 +1,12 @@
+.blogcontainer {
+    width: 50%;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding-top: 50px;
+}
+
+.blogcontainer h4{
+    text-decoration: underline;
+    letter-spacing: 1px;
+}

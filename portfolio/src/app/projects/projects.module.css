@@ -1,0 +1,22 @@
+.projectitems {
+    padding-top: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    letter-spacing: 1px;
+    width: 50%;
+}
+
+.projectitems h1 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    letter-spacing: 4px;
+    padding-top: 10px;
+}
+
+.projectitems img {
+    border-radius: 1%;
+}
+
+.projectitems a {
+    color: inherit;
+}
