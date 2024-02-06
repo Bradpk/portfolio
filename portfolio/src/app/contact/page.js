@@ -10,21 +10,21 @@ function Contact() {
         <div className={`row ${styles.row}`}>
           <div className='col-6'>
             <p>Github</p>
-            <img src='/github.png' alt="github logo" className={styles.image}></img>
+            <Image src='/github.png' width={100} height={98} alt="github logo" className={styles.image}></Image>
           </div>
           <div className='col-6'>
             <p>Linkedin</p>
-            <img src='/linkedin.png' alt="github logo" className={styles.image}></img>
+            <Image src='/linkedin.png' width={100} height={85} alt="github logo" className={styles.image}></Image>
           </div>
         </div>
         <div className={`row ${styles.row}`}>
           <div className='col-6'>
             <p>Resume</p>
-            <img src='/resume.png' alt="github logo" className={styles.image}></img>
+            <Image src='/resume.png' width={100} height={100} alt="github logo" className={styles.image}></Image>
           </div>
           <div className='col-6'>
             <p>Email</p>
-            <img src='/email.png' alt="github logo" className={styles.image}></img>
+            <Image src='/email.png' width={100} height={100} alt="github logo" className={styles.image}></Image>
           </div>
         </div>
       </div>
