@@ -6,7 +6,7 @@ function Navbar() {
         <nav className={`navbar navbar-expand-sm ${styles.navbar}`}>
             <div className='container-fluid'>
                 <button type='button' className='navbar-toggler' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle Navigation'>
-                <span className={`navbar-toggler-icon ${styles.togglerIcon}`}></span>
+                    <span className={`navbar-toggler-icon ${styles.togglerIcon}`}></span>
                 </button>
                 <div className='collapse navbar-collapse justify-content-center align-center' id='navbarNav'>
                     <ul className={`navbar-nav ${styles.navoptions}`}>
