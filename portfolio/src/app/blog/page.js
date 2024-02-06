@@ -6,8 +6,8 @@ function Blog() {
     <div>
     <Navbar />
     <div className={`container ${styles.blogcontainer}`}>
-    <div id="carouselExampleCaptions" className={`carousel slide ${styles.carousel}`}>
-          <div className={`carousel-indicators ${styles.indicators}`}>
+    <div id="carouselExampleCaptions" className='carousel slide'>
+          <div className='carousel-indicators'>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -23,7 +23,7 @@ function Blog() {
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="12" aria-label="Slide 13"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="13" aria-label="Slide 14"></button>
           </div>
-          <div class="carousel-inner">
+          <div className={`container carousel-inner ${styles.content}`}>
             <div class="carousel-item active">
               <div className='justify-content-center text-center'>
               <h1>(WEEK ONE)</h1>
@@ -153,6 +153,7 @@ function Blog() {
         </div>
     </div>
     </div>
+
   );
 }
 
