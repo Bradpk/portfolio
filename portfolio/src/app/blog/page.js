@@ -63,37 +63,37 @@ function Blog() {
             <div class="carousel-item">
               <div className='justify-content-center text-center'>
                 <h1>WEEK SEVEN</h1>
-                <p>.</p>
+                <p>This week, we continued working with React. Additionally, we were introduced to using the command line and learned some basic commands such as cd, ls, mkdir, pwd, and a few others. Learning the command line feels almost as in-depth and involved as learning a language or a framework. There are definitely more aspects to programming than I initially thought. The breadth of things I need to know and learn keeps expanding, which is becoming quite intimidating. I hope my brain can keep up. Anyway, this week's project was a to-do list. It required functionality for users to add and delete different items, and to categorize them into views by completed and not completed tasks. </p>
               </div>
             </div>
             <div class="carousel-item">
               <div className='justify-content-center text-center'>
                 <h1>WEEK EIGHT</h1>
-                <p>.</p>
+                <p>Python! I had already anticipated that we'd be learning Python at some point. I was actually surprised at how many similarities there were between JavaScript and Python. The syntax was definitely different, but the underlying principles seemed to be more or less the same to me. This also marks the halfway point in the bootcamp. I think my biggest hurdles in the bootcamp have been more or less the same since day one: retention and how quickly I'm able to adapt to new concepts and information. It's incredibly fast-paced, to the point where I'm questioning whether I'm absorbing all the information needed before we move on to the next topic. I plan to definately keep studying after the bootcamp to solidify all the things I've learnt so far.</p>
               </div>
             </div>
             <div class="carousel-item">
               <div className='justify-content-center text-center'>
                 <h1>WEEK NINE</h1>
-                <p>.</p>
+                <p>SQL! This week, we've been delving into SQL and databases. I've completed a couple of basic SQL tutorials now, and it seems much more straightforward than learning Python or JavaScript because the syntax is more akin to plain English. Although the SQL syntax seemed fairly easy, I still had some difficulty grasping how to use Python in combination with SQL, as I was under the misconception that you would use one or the other. I'm sure, like everything in programming so far, it will become more intuitive the more time you spend with it. The ideas of backend and frontend are still somewhat mysterious to me. I perfectly understand what they both are, but as for how they connect with each other, there's a gap in my understanding.  </p>
               </div>
             </div>
             <div class="carousel-item">
               <div className='justify-content-center text-center'>
                 <h1>WEEK TEN</h1>
-                <p>.</p>
+                <p>Django! Django is Python based framework that is named after Django Reinhardt, a fact I appreciate as a guitarist. So we've been learning about how models, views and url files in Django work and how to set up a back end repo and making our own databases. Our project this week had us revisit an older react project and combine it with our back end repo to make http requests, which cleared up a huge ammount of confusion I had the week prior about how the back end and front end actually commincate with each other. The front aspect of this project was as simple as just repalcing a prior url with a new one, the bulk of the work was setting up the database. We also had to use a google chrome extension called CORS to get it to work correctly. </p>
               </div>
             </div>
             <div class="carousel-item">
               <div className='justify-content-center text-center'>
                 <h1>WEEK ELEVEN</h1>
-                <p>.</p>
+                <p>Frameworks on frameworks. We had to use django rest framework this week which is a framework that goes on top of django. There were a few differences between the two, the difference that stood out to me the most was the use of a seperate serializer file. Overall my experience with Django and the Django Rest Framework, has been up and down. Getting the project set up seems to be half the battle and is very frustrating. Although once I figured out how to get everything installed and running it seems fairly easy. Creating our own database in hindset was not the mountain it initally seemed, and the thunder client extension we used made running CRUD operations on our database infomation a piece of cake. </p>
               </div>
             </div>
             <div class="carousel-item">
               <div className='justify-content-center text-center'>
                 <h1>WEEK TWELVE</h1>
-                <p>.</p>
+                <p></p>
               </div>
             </div>
             <div class="carousel-item">
