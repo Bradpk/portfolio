@@ -32,7 +32,7 @@ function Projects() {
             <div class="carousel-item">
               <div className='justify-content-center text-center'>
                 <h1>VIRTUAL SYNTHESIZER</h1>
-                <p class="description">A virtual musical synthesizer with controls for oscillator selection and envelope settings</p><a href="https://synth-pi.vercel.app/piano/" target='_blank'>
+                <p class="description">A musical synthesizer with controls for oscillator selection and envelope settings</p><a href="https://synth-pi.vercel.app/piano/" target='_blank'>
                   <Image src='/synth.png' width={450} height={300} alt="project screenshot"></Image></a>
                 <a href="https://github.com/Bradpk/Synth" target='_blank'><br></br><br></br>Github Repo</a>
               </div>
@@ -73,7 +73,7 @@ function Projects() {
             <div class="carousel-item">
               <div className='justify-content-center text-center'>
                 <h1>ALARM CLOCK</h1>
-                <p class="description">An alarm clock designed to get you up and at 'em. But whats the magic button do?</p><a href="https://bradpk.github.io/alarm-clock/" target='_blank'>
+                <p class="description">An alarm clock designed to get you up and at 'em. Whats the magic button do?</p><a href="https://bradpk.github.io/alarm-clock/" target='_blank'>
                   <Image src='/alarmclock.png' width={450} height={300} alt="project screenshot"></Image></a>
                 <a href="https://github.com/Bradpk/alarm-clock" target='_blank'><br></br><br></br>Github Repo</a>
               </div>
