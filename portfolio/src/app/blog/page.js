@@ -87,13 +87,13 @@ function Blog() {
             <div class="carousel-item">
               <div className='justify-content-center text-center'>
                 <h1>WEEK ELEVEN</h1>
-                <p>Frameworks on frameworks. We had to use django rest framework this week which is a framework that goes on top of django. There were a few differences between the two, the difference that stood out to me the most was the use of a seperate serializer file. Overall my experience with Django and the Django Rest Framework, has been up and down. Getting the project set up seems to be half the battle and is very frustrating. Although once I figured out how to get everything installed and running it seems fairly easy. Creating our own database in hindset was not the mountain it initally seemed, and the thunder client extension we used made running CRUD operations on our database infomation a piece of cake. </p>
+                <p>Frameworks on top of frameworks. This week, we had to use Django Rest Framework, which is a framework built on top of Django. There were a few differences between the two, but the one that stood out to me the most was the use of a separate serializer file. Overall, my experience with Django and the Django Rest Framework has been a mix of ups and downs. Getting the project set up seems to be half the battle and can be very frustrating. However, once I figured out how to get everything installed and running, it seemed fairly easy. Creating our own database in hindsight was not as daunting as it initially seemed, and the Thunder Client extension we used made running CRUD operations on our database information a piece of cake.</p>
               </div>
             </div>
             <div class="carousel-item">
               <div className='justify-content-center text-center'>
                 <h1>WEEK TWELVE</h1>
-                <p></p>
+                <p>Not long now! This week, we're shifting gears and planning for our capstone project, which we will complete over the following two weeks. We had to get approval for a project of our choice and write out a plan for it that utilizes aspects of the agile development process, including setting up a Kanban board, MoSCoW, creating wireframes, and pseudocoding. The project idea I've chosen is an app for musicians, something within my wheelhouse. It will consist of musical games that use a JavaScript library called Tone.js, allowing me to code audible sound waves of different pitches and lengths. The games will have users listen to and then guess different musical scales, intervals, and arpeggios. The app will also allow them to create an account to keep track of their prior scores.</p>
               </div>
             </div>
             <div class="carousel-item">
