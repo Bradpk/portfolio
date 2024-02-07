@@ -22,6 +22,8 @@ function Blog() {
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11" aria-label="Slide 12"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="12" aria-label="Slide 13"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="13" aria-label="Slide 14"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="14" aria-label="Slide 15"></button>
+
           </div>
           <div className={`container carousel-inner ${styles.content}`}>
             <div class="carousel-item active">
@@ -99,13 +101,19 @@ function Blog() {
             <div class="carousel-item">
               <div className='justify-content-center text-center'>
                 <h1>WEEK THIRTEEN</h1>
-                <p>.</p>
+                <p>I began coding my capstone project this week. I would like to say it went well, but I ended up facing some challenges that led me to waste a huge amount of time. We were encouraged to use Next.js, which is a framework I hadn't used prior to this project, so it took some time to get used to the differences between Next.js and regular React. Although the major hurdle was the fact that I opted for my project to have user accounts, which required me to wrap my head around how user authentication works. This has proven to be far more complicated and time-consuming than I thought. In fact, as I type this, it is still not working. In hindsight, I should have coded all the games that only required front-end work first and then worried about user authentication afterward. </p>
               </div>
             </div>
             <div class="carousel-item">
               <div className='justify-content-center text-center'>
                 <h1>WEEK FOURTEEN</h1>
-                <p>.</p>
+                <p>Final week of the bootcamp! I got a head start and coded throughout the weekend. I decided to code all the games first so that I would have something presentable, as after the first week I didn't have much to show. The games weren't too difficult to code, and I had played around with the Tone.js library earlier in the bootcamp, so I was already familiar with how it worked. I was quite proud of the games I created and thought the utilization of an audible library was quite cool and unique. After making the frontend all look pretty, I tackled the user authentication one more time. Some other members of our cohort were having similar issues, so we got in a group and, with some help from our tutors, we were able to get the user authentication working, and I had a completed capstone project! Success! </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div className='justify-content-center text-center'>
+                <h1>DEMO DAY</h1>
+                <p>After completing our capstone project, our bootcamp held an event where we had to present our projects to a room full of people from the local tech community. I used to have terrible stage fright when I was younger, but I was surprised at my lack of nervousness. The demo day went well and I felt a lot of pride in what I had achieved. In retrospect, there is no doubt the bootcamp was worth it. As someone who had zero prior experience in coding or anything tech-related, I almost cannot believe the amount I was able to learn in just a few months. It was definitely a very challenging course, and there were plenty of times I was feeling overwhelmed and stressed out with all the deadlines and sheer volume of material I needed to learn. However, it has become clear to me that it's an environment I thrive in. </p>
               </div>
             </div>
           </div>
