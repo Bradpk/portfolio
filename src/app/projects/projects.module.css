@@ -10,7 +10,6 @@
     color: rgb(255, 255, 255);
     font-size: 16px;
     letter-spacing: 4px;
-
 }
 
 .projectitems img {
@@ -19,32 +18,4 @@
 
 .projectitems a {
     color: inherit;
-}
-
-@media (max-width: 576px) {
-    .projectitems img {
-        width: 150px;
-        height: 100px;
-    }
-}
-
-@media (min-width: 576px) {
-    .projectitems img {
-        width: 210px;
-        height: 140px;
-    }
-}
-
-@media (min-width: 768px) {
-    .projectitems img {
-        width: 330px;
-        height: 220px;
-    }
-}
-
-@media (min-width: 992px) {
-    .projectitems img {
-        width: 450px;
-        height: 300px;
-    }
 }
