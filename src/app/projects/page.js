@@ -64,7 +64,7 @@ function Projects() {
             <div class="carousel-item">
               <div className='text-center'>
                 <h1>REACT RESTAURANT</h1>
-                <p>A mock restaurant website I created to practice making HTTP requests</p><a href="https://bradpk.github.io/React-Restaurant-/#/" target='_blank'>
+                <p>A mock restaurant website to practice get requests (requires CORS extension)</p><a href="https://bradpk.github.io/React-Restaurant-/#/" target='_blank'>
                   <Image src='/bistro.png' width={450} height={300} alt="project screenshot"></Image></a><br></br>
                 <a className={styles.github} href="https://github.com/Bradpk/React-Restaurant-" target='_blank'><br></br><br></br>Github Repo</a>
               </div>
