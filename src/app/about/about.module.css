@@ -1,10 +1,12 @@
 .aboutcontainer {
-    width: 50%;
+    width: 600px;
     color: white;
+    padding-top: 140px;
     font-size: 13px;
     letter-spacing: 1px;
-    padding-top: 140px;
     line-height: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    padding-left: 27px;
 }
 
 .myself {

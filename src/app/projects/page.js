@@ -18,7 +18,6 @@ function Projects() {
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
-
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -94,7 +93,9 @@ function Projects() {
                 <a href="https://github.com/Bradpk/mind-reader" target='_blank'><br></br><br></br>Github Repo</a>
               </div>
             </div>
+        
           </div>
+          <div className={styles.buttonwidth}>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -104,8 +105,10 @@ function Projects() {
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+        </div>
       </div>
-    </div>
+      </div>
+    
 
   );
 }
