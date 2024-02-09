@@ -7,8 +7,17 @@
 
 .row img{
     margin-bottom: 10vw;;
+    transition: transform 0.1s ease-in-out;
+}
+/*----------------------------------------------------------------------------------------*/
+.row img:hover {
+    transform: scale(1.1); 
 }
 
+.row img:not(:hover) {
+    transform: scale(1); 
+}
+/*----------------------------------------------------------------------------------------*/
 @media (max-width: 576px) {
     .row img {
         width: 75px;
@@ -16,7 +25,7 @@
         margin-bottom: 50px;
     }
 }
-
+/*----------------------------------------------------------------------------------------*/
 @media (max-width: 576px) {
     .contactcontainer {
         width: 100%;
