@@ -6,7 +6,7 @@ function Projects() {
   return (
     <div>
       <Navbar />
-      <div className={`container ${styles.projectitems}`}>
+      <div className={`container-fluid ${styles.projectitems}`}>
         <div id="carouselExampleCaptions" class='carousel slide'>
           <div className={`carousel-indicators ${styles.indicators}`}>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -93,8 +93,6 @@ function Projects() {
                 <a href="https://github.com/Bradpk/mind-reader" target='_blank'><br></br><br></br>Github Repo</a>
               </div>
             </div>
-            </div>
-          
           </div>
           <div className={styles.buttonwidth}>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -108,7 +106,7 @@ function Projects() {
         </div>
         </div>
       </div>
-     
+      </div>
     
 
   );

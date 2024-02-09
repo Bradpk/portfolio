@@ -5,7 +5,7 @@ function Blog() {
   return (
     <div>
       <Navbar />
-      <div className={`container ${styles.blogcontainer}`}>
+      <div className={`container-fluid ${styles.blogcontainer}`}>
         <div id="carouselExampleCaptions" className='carousel slide'>
           <div className='carousel-indicators'>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -116,7 +116,7 @@ function Blog() {
               </div>
             </div>
           </div>
-        </div>
+        
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -127,6 +127,7 @@ function Blog() {
         </button>
       </div>
     </div>
+     </div>
 
 
   );
