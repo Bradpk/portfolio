@@ -1,12 +1,7 @@
 .blogcontainer {
     width: 66.6%;
-    padding-top: 140px;
-    border: 1px solid rgb(255, 255, 255);
+    padding-top: 99px;
 }
-
-/* .content{
-    width: 66.6%;
-} */
 
 .blogcontainer h1 {
     color: rgb(255, 255, 255);
@@ -18,7 +13,7 @@
     color: rgb(255, 255, 255);
     font-size: 13px;
     letter-spacing: 1px;
-    padding-bottom: 29px;
+    padding-bottom: 48px;
     line-height: 30px;
 }
 
@@ -35,12 +30,30 @@
     }
 }
 
+@media (max-width: 1200px) {
+    .blogcontainer {
+        width: 83.3%;
+    }
+}
 
+@media (max-width: 576px) {
+    .blogcontainer {
+        padding-top: 10px;
+    }
+}
 
 
 @media (max-width: 576px) {
+    .content p{
+        font-size: 12px;
+        letter-spacing: 1px;
+        
+    }
+}
+
+@media (max-width: 576px) {
     .content {
-        width: 85%;
+        width: 83%;
     }
 }
 

@@ -6,7 +6,7 @@ function About() {
   return (
     <div>
       <Navbar />
-      <div className={`container ${styles.aboutcontainer}`}>
+      <div className={`container-fluid ${styles.aboutcontainer}`}>
         <Image className={styles.myself} src='/me.png' width={300} height={400} alt="img"></Image>
         <p>I was born and raised in Auckland, New Zealand. After graduating from high school, I attended
           college to pursue a degree in audio production. Following my college graduation, I had a
@@ -15,7 +15,7 @@ function About() {
           has played a significant role in my life as both a hobby and a career. I've devoted much of my adult life
           to
           music production and music education. When I'm not doing something music related or coding I also enjoy hiking, fishing, rock climbing and grabbing a
-          drink with friends whenever I get the chance.<br></br><br></br>Over the past eighteen months or so I've
+          drink with friends whenever I get the chance.<br></br>Over the past eighteen months or so I've
           discovered a new interest in programming that has led me to pursue a fresh career path in the tech
           industry.</p>
       </div>
