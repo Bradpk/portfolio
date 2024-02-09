@@ -1,7 +1,7 @@
 .header {
     display: grid;
     place-items: center;
-    height: 100vh;
+    height: 89vh;
     width: 100vw;
     background-color: rgb(0, 0, 10);
 }

@@ -1,14 +1,67 @@
 .aboutcontainer {
-    width: 50%;
     color: white;
+    padding-top: 99px;
     font-size: 13px;
     letter-spacing: 1px;
-    padding-top: 140px;
     line-height: 30px;
+    padding-left: 27px;
 }
 
 .myself {
     float: right;
     padding-left: 10px;
     border-radius: 1px;
+}
+/*----------------------------------------------------------------------------------------*/
+@media (max-width: 576px) {
+    .aboutcontainer {
+        width: 100%;
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 576px) {
+    .aboutcontainer {
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) {
+    .aboutcontainer {
+        width: 80%;
+    }
+}
+
+@media (min-width: 992px) {
+    .aboutcontainer {
+        width: 690px;
+    }
+}
+/*----------------------------------------------------------------------------------------*/
+@media (max-width: 576px) {
+    .myself {
+        height:240px;
+        width: 180px
+    }
+}
+
+@media (min-width: 576px) {
+    .myself {
+        height:280px;
+        width: 210px
+    }
+}
+
+@media (min-width: 768px) {
+    .myself {
+        height:320px;
+        width: 240px
+    }
+}
+
+@media (min-width: 992px) {
+    .myself {
+        height:360px;
+        width: 270px
+    }
 }

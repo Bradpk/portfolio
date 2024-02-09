@@ -1,11 +1,52 @@
 .contactcontainer {
     color: white;
-    padding-top: 140px;
-    width: 66.6%;
+    padding-top: 99px;
     font-size: 16px;
     letter-spacing: 4px;
 }
 
-.row {
-    padding-bottom: 10%;
+.row img{
+    margin-bottom: 10vw;;
+    transition: transform 0.1s ease-in-out;
+}
+/*----------------------------------------------------------------------------------------*/
+.row img:hover {
+    transform: scale(1.1); 
+}
+
+.row img:not(:hover) {
+    transform: scale(1); 
+}
+/*----------------------------------------------------------------------------------------*/
+@media (max-width: 576px) {
+    .row img {
+        width: 75px;
+        height: 75px;
+        margin-bottom: 50px;
+    }
+}
+/*----------------------------------------------------------------------------------------*/
+@media (max-width: 576px) {
+    .contactcontainer {
+        width: 100%;
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 576px) {
+    .contactcontainer {
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) {
+    .contactcontainer {
+        width: 80%;
+    }
+}
+
+@media (min-width: 992px) {
+    .contactcontainer {
+        width: 70%;
+    }
 }
