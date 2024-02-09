@@ -8,7 +8,7 @@ function Projects() {
       <Navbar />
       <div className={`container ${styles.projectitems}`}>
         <div id="carouselExampleCaptions" class="carousel slide">
-          <div class="carousel-indicators">
+          <div className={`carousel-indicators ${styles.indicators}`}>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -18,13 +18,14 @@ function Projects() {
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
-          </div>
+            </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div className='justify-content-center text-center'>
+            
                 <h1>EAR ELEVATION</h1>
                 <p class="description">A game designed for musicians to improve their auditory recognition</p><a href="https://ear-elevation-ni65itt2f-bradpk.vercel.app/" target='_blank'>
-                  <Image className={styles.test} src='/ear-elevation.png' width={600} height={400} alt="project screenshot"></Image></a>
+                  <img className={styles.test} src='/ear-elevation.png' width={450} height={300} alt="project screenshot"></img></a>
                 <a href="https://github.com/Bradpk/Ear_Elevation_Front_Two" target='_blank'><br></br><br></br>Github Repo</a>
               </div>
             </div>
@@ -94,6 +95,7 @@ function Projects() {
               </div>
             </div>
             </div>
+          
           </div>
           <div className={styles.buttonwidth}>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -107,7 +109,7 @@ function Projects() {
         </div>
         </div>
       </div>
-    
+     
     
 
   );

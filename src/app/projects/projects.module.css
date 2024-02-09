@@ -3,7 +3,7 @@
     color: rgb(255, 255, 255);
     font-size: 13px;
     letter-spacing: 1px;
-    width: 629px;
+    width: 650px;
     border: 1px solid rgb(255, 255, 255);
 }
 
@@ -23,4 +23,8 @@
 
 .buttonwidth{
     width:10vw;
+}
+
+.indicators {
+    border: 2px solid rgb(123, 0, 0);
 }
