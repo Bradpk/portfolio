@@ -21,10 +21,6 @@
     color: inherit;
 }
 
-.buttonwidth{
-    width:10vw;
-}
-
 .indicators {
-    border: 2px solid rgb(123, 0, 0);
+    bottom: 10px;
 }
