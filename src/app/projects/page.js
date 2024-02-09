@@ -24,7 +24,7 @@ function Projects() {
               <div className='justify-content-center text-center'>
                 <h1>EAR ELEVATION</h1>
                 <p class="description">A game designed for musicians to improve their auditory recognition</p><a href="https://ear-elevation-ni65itt2f-bradpk.vercel.app/" target='_blank'>
-                  <Image src='/ear-elevation.png' width={450} height={300} alt="project screenshot"></Image></a>
+                  <Image className={styles.test} src='/ear-elevation.png' width={600} height={400} alt="project screenshot"></Image></a>
                 <a href="https://github.com/Bradpk/Ear_Elevation_Front_Two" target='_blank'><br></br><br></br>Github Repo</a>
               </div>
             </div>
@@ -93,7 +93,7 @@ function Projects() {
                 <a href="https://github.com/Bradpk/mind-reader" target='_blank'><br></br><br></br>Github Repo</a>
               </div>
             </div>
-        
+            </div>
           </div>
           <div className={styles.buttonwidth}>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -107,7 +107,7 @@ function Projects() {
         </div>
         </div>
       </div>
-      </div>
+    
     
 
   );
