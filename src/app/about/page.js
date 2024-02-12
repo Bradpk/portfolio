@@ -7,7 +7,7 @@ function About() {
     <div>
       <Navbar />
       <div className={`container-fluid ${styles.aboutcontainer}`}>
-        <Image className={styles.myself} src='/me.png' width={300} height={400} alt="img"></Image>
+        <Image className={styles.myself} src='/me.jpg' width={300} height={400} alt="img"></Image>
         <p>I was born and raised in Auckland, New Zealand. After graduating from high school, I attended
           college to pursue a degree in audio production. Following my college graduation, I had a
           desire to travel and spent time exploring Europe while working in the yachting
