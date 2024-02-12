@@ -1,5 +1,6 @@
 .navbar {
     height: 11vh;
+    z-index: 1;
 }
 
 .navoptions li {

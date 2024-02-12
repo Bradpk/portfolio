@@ -3,7 +3,7 @@ import styles from './navbar.module.css';
 
 function Navbar() {
     return (
-        <nav className={`navbar navbar-expand-sm ${styles.navbar}`}>
+        <nav className={`navbar navbar-expand-sm text-center ${styles.navbar}`}>
             <div className='container-fluid'>
                 <button type='button' className='navbar-toggler' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle Navigation'>
                     <span className={`navbar-toggler-icon ${styles.togglerIcon}`}></span>
