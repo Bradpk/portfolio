@@ -1,10 +1,12 @@
 import Navbar from "../components/navbar";
 import styles from './blog.module.css';
+import Template from "../components/template";
 
 function Blog() {
   return (
     <div>
       <Navbar />
+      <Template>
       <div className={`container-fluid ${styles.blogcontainer}`}>
         <div id="carouselExampleCaptions" className='carousel slide'>
         <div className='carousel-indicators'>
@@ -127,6 +129,7 @@ function Blog() {
         </button>
       </div>
     </div>
+    </Template>
      </div>
 
 

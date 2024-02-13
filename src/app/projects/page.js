@@ -1,11 +1,13 @@
 import Navbar from "../components/navbar";
 import Image from "next/image";
 import styles from './projects.module.css';
+import Template from "../components/template";
 
 function Projects() {
   return (
     <div>
       <Navbar />
+      <Template>
       <div className={`container-fluid ${styles.projectitems}`}>
         <div id="carouselExampleCaptions" class='carousel slide'>
           <div className={`carousel-indicators ${styles.indicators}`}>
@@ -106,6 +108,7 @@ function Projects() {
         </div>
         </div>
       </div>
+      </Template>
       </div>
     
 

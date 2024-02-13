@@ -1,11 +1,13 @@
 import Navbar from "../components/navbar";
 import styles from './about.module.css';
 import Image from "next/image";
+import Template from "../components/template";
 
 function About() {
   return (
     <div>
       <Navbar />
+      <Template>
       <div className={`container-fluid ${styles.aboutcontainer}`}>
         <Image className={styles.myself} src='/me.jpg' width={300} height={400} alt="img"></Image>
         <p>I was born and raised in Auckland, New Zealand. After graduating from high school, I attended
@@ -19,6 +21,7 @@ function About() {
           discovered a new interest in programming that has led me to pursue a fresh career path in the tech
           industry.</p>
       </div>
+      </Template>
     </div>
   );
 }

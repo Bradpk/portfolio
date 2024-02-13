@@ -1,11 +1,13 @@
 import Navbar from "../components/navbar";
 import Image from "next/image";
 import styles from './contact.module.css';
+import Template from "../components/template";
 
 function Contact() {
   return (
     <div>
       <Navbar />
+      <Template>
       <div className={`container justify-content-center text-center ${styles.contactcontainer}`}>
         <div className={`row ${styles.row}`}>
           <div className='col-sm-6 col-12'>
@@ -27,6 +29,7 @@ function Contact() {
           </div>
         </div>
       </div>
+      </Template>
     </div>
   );
 }
