@@ -33,7 +33,7 @@ function Projects() {
             <div class="carousel-item">
               <div className='text-center'>
                 <h1>VIRTUAL SYNTHESIZER</h1>
-                <p>A musical synthesizer with controls for oscillator selection and envelope settings</p><a href="https://synth-pi.vercel.app/piano/" target='_blank'>
+                <p>A synthesizer with controls for oscillator selection and envelope settings</p><a href="https://synth-pi.vercel.app/piano/" target='_blank'>
                   <Image src='/synth.png' width={450} height={300} alt="project screenshot"></Image></a><br></br>
                 <a className={styles.github} href="https://github.com/Bradpk/Synth" target='_blank'><br></br><br></br>Github Repo</a>
               </div>
@@ -41,8 +41,7 @@ function Projects() {
             <div class="carousel-item">
               <div className='text-center'>
                 <h1>TIK-TAC-TOE</h1>
-                <p>A rendition of the classic game Tic-Tac-Toe
-                  Give it a go!</p><a href="https://bradpk.github.io/tic-tac-toe//" target='_blank'>
+                <p>A rendition of the classic game Tic-Tac-Toe or Noughts and Crosses</p><a href="https://bradpk.github.io/tic-tac-toe//" target='_blank'>
                   <Image src='/tictactoe.png' width={450} height={300} alt="project screenshot"></Image></a><br></br>
                 <a className={styles.github} href="https://github.com/Bradpk/tic-tac-toe" target='_blank'><br></br><br></br>Github Repo</a>
               </div>

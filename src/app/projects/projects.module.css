@@ -1,8 +1,8 @@
 .projectitems {
     padding-top: 99px;
     color: rgb(255, 255, 255);
-    font-size: 13px;
-    letter-spacing: 1px;
+    font-size: 14px;
+    letter-spacing: 0.7px;
     width: 66.6%;
 }
 
@@ -13,8 +13,8 @@
 }
 
 .projectitems p {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .projectitems img {
