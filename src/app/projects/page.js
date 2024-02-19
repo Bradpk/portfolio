@@ -57,7 +57,7 @@ function Projects() {
             <div class="carousel-item">
               <div className='text-center'>
                 <h1>WEATHER APP</h1>
-                <p>A weather app that allows you to fetch weather information from a given zip code</p><a href="https://bradpk.github.io/weather-app//" target='_blank'>
+                <p>A weather app that allows you to fetch weather data from a given zip code</p><a href="https://bradpk.github.io/weather-app//" target='_blank'>
                   <Image src='/weatherapp.png' width={450} height={300} alt="project screenshot"></Image></a><br></br>
                 <a className={styles.github} href="https://github.com/Bradpk/weather-app" target='_blank'><br></br><br></br>Github Repo</a>
               </div>
@@ -65,7 +65,7 @@ function Projects() {
             <div class="carousel-item">
               <div className='text-center'>
                 <h1>REACT RESTAURANT</h1>
-                <p>A mock restaurant website to practice get requests (requires CORS extension)</p><a href="https://bradpk.github.io/React-Restaurant-/#/" target='_blank'>
+                <p>A mock restaurant website created to practice making HTTP requests</p><a href="https://bradpk.github.io/React-Restaurant-/#/" target='_blank'>
                   <Image src='/bistro.png' width={450} height={300} alt="project screenshot"></Image></a><br></br>
                 <a className={styles.github} href="https://github.com/Bradpk/React-Restaurant-" target='_blank'><br></br><br></br>Github Repo</a>
               </div>
@@ -73,7 +73,7 @@ function Projects() {
             <div class="carousel-item">
               <div className='text-center'>
                 <h1>ALARM CLOCK</h1>
-                <p>An alarm clock designed to get you up and at 'em. Whats the magic button do?</p><a href="https://bradpk.github.io/alarm-clock/" target='_blank'>
+                <p>An alarm clock to get you up and at 'em. Whats the magic button do?</p><a href="https://bradpk.github.io/alarm-clock/" target='_blank'>
                   <Image src='/alarmclock.png' width={450} height={300} alt="project screenshot"></Image></a><br></br>
                 <a className={styles.github} href="https://github.com/Bradpk/alarm-clock" target='_blank'><br></br><br></br>Github Repo</a>
               </div>
