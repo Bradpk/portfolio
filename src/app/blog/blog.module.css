@@ -1,4 +1,8 @@
-.blogcontainer {
+.page {
+    height: 100vh;
+  }
+  
+  .blogcontainer {
     width: 66.6%;
     padding-top: 99px;
 }

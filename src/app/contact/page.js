@@ -5,7 +5,7 @@ import Template from "../components/template";
 
 function Contact() {
   return (
-    <div>
+    <div className={styles.page}>
       <Navbar />
       <Template>
       <div className={`container justify-content-center text-center ${styles.contactcontainer}`}>

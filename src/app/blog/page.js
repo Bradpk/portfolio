@@ -4,7 +4,7 @@ import Template from "../components/template";
 
 function Blog() {
   return (
-    <div>
+    <div className={styles.page}>
       <Navbar />
       <Template>
       <div className={`container-fluid ${styles.blogcontainer}`}>

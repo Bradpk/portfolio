@@ -1,4 +1,8 @@
-.contactcontainer {
+.page {
+    height: 100vh;
+  }
+  
+  .contactcontainer {
     color: white;
     padding-top: 99px;
     font-size: 16px;

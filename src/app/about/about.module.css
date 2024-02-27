@@ -1,4 +1,8 @@
-.aboutcontainer {
+.page {
+    height: 100vh;
+  }
+  
+  .aboutcontainer {
     color: white;
     padding-top: 99px;
     font-size: 14px;
