@@ -8,4 +8,5 @@ Next.js
 JavaScript, 
 HTML, 
 CSS, 
-Bootstrap
+Bootstrap,
+Framer Motion
