@@ -12,14 +12,35 @@
       );
 }
 
+@keyframes revealBorder {
+    100% {
+        width: 100%;
+        left: 0;
+        transform: none;
+    }
+}
+
 .homename {
     background-color: transparent;
-    border-top: 0.1px solid rgb(255, 255, 255);
-    border-bottom: 0.1px solid rgb(255, 255, 255);
     padding: 50px;
     text-align: center;
     color: rgb(255, 255, 255);
     margin-bottom: 20vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.homename::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 100%;
+    border-top: 0.1px solid rgb(255, 255, 255);
+    border-bottom: 0.1px solid rgb(255, 255, 255);
+    animation: revealBorder 0.9s ease-out forwards;
+    animation-delay: 0.9s; 
 }
 
 .homename h1{

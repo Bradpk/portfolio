@@ -20,7 +20,7 @@ function About() {
           drink with friends whenever I get the chance. Over the past eighteen months or so I've
           discovered a new interest in programming that has led me to pursue a fresh career path in the tech
           industry.</p>
-          <p>March 2024<br></br>Currently job searching and always happy to chat! Get in touch if you'd like to know more. </p>
+          <p>April 2024<br></br>Currently job searching and always happy to chat! Get in touch if you'd like to know more. </p>
       </div>
       </Template>
     </div>
