@@ -45,6 +45,7 @@ function Projects() {
                   <Image src='/tictactoe.png' width={460} height={300} alt="project screenshot"></Image></a><br></br>
                 <a className={styles.github} href="https://github.com/Bradpk/tic-tac-toe" target='_blank'><br></br><br></br>Github Repo</a>
               </div>
+              </div>
               <div class="carousel-item active">
               <div className='text-center'>
                 <h1>DOTNET CALCULATOR</h1>
@@ -52,7 +53,6 @@ function Projects() {
                   <Image className={styles.test} src='/calculator.png' width={460} height={300} alt="project screenshot"></Image></a><br></br>
                 <a className={styles.github} href="https://github.com/Bradpk/dotnet-calculator" target='_blank'><br></br><br></br>Github Repo</a>
               </div>
-            </div>
             </div>
             <div class="carousel-item">
               <div className='text-center'>
