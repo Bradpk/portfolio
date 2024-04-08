@@ -46,7 +46,7 @@ function Projects() {
                 <a className={styles.github} href="https://github.com/Bradpk/tic-tac-toe" target='_blank'><br></br><br></br>Github Repo</a>
               </div>
               </div>
-              <div class="carousel-item active">
+              <div class="carousel-item">
               <div className='text-center'>
                 <h1>DOTNET CALCULATOR</h1>
                 <p>A basic calculator created with asp.net core framework</p><a href="https://dotnet-calculator.azurewebsites.net/" target='_blank'>
