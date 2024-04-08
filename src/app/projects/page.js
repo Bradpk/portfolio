@@ -49,7 +49,7 @@ function Projects() {
               <div class="carousel-item active">
               <div className='text-center'>
                 <h1>DOTNET CALCULATOR</h1>
-                <p>A game designed for musicians to improve their auditory recognition</p><a href="https://dotnet-calculator.azurewebsites.net/" target='_blank'>
+                <p>A basic calculator created with asp.net core framework</p><a href="https://dotnet-calculator.azurewebsites.net/" target='_blank'>
                   <Image className={styles.test} src='/calculator.png' width={460} height={300} alt="project screenshot"></Image></a><br></br>
                 <a className={styles.github} href="https://github.com/Bradpk/dotnet-calculator" target='_blank'><br></br><br></br>Github Repo</a>
               </div>
